@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eff3f7;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  margin: 0px 320px
+}
+
+.header-bg {
+  background-image: url(bg1.jpg);
+}
+
+.header-title {
+  padding-top: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.header-text {
+  margin-left: 50px;
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.header-title a {
+  margin-right: 40px;
+}
+
+#header-prof,
+#header-time {
+  background: #EDFCF7;
+  border-radius: 22px;
+  color: #22C993;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#header-date {
+  padding: 5px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.header {
+  margin-top: -100px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 1px rgb(131, 130, 130);
+}
+
+.main-list {
+  counter-reset: topicList;
+  padding: 0;
+  margin: 35px 0 50px;
+  list-style-type: none;
+
+}
+
+.main-list li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  margin-left: 20px;
+  display: block;
+  transition: color 0.1s linear;
+
+}
+
+.main-list li a:hover {
+  color: rgb(206, 35, 35);
+}
+
+.content {
+  padding-top: 80px;
+  width: 2000px;
+}
+
+.container1 {
+  margin-left: 320px;
+}
+
+.flexmain {
+  display: flex;
+}
+
+.imagecon {
+  padding-top: 80px;
+  margin-left: -815px;
+}
+
+.imagemain {
+  width: 350px;
+  height: 604px;
+}
+
+.topic-list {
+  display: block;
+  width: 846px;
+}
+
+.topic-list b {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 30px;
+  color: #222222;
+  line-height: 28px;
+  font-weight: bolder;
+}
+
+.topic-list .main-list li {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.topic-list .main-list li:before {
+  counter-increment: topicList;
+  content: counter(topicList);
+  margin: 0;
+  text-align: center;
+  border-radius: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  position: relative;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  padding-left: 15px;
+  top: -5px;
+}
+
+
+.whoisprog {
+  background-color: #eff3f7;
+  height: 2000px;
+}
