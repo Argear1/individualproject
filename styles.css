@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #eff3f7;
   font-family: 'IBM Plex Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -83,6 +88,10 @@ body {
   color: rgb(206, 35, 35);
 }
 
+.maininfo {
+  margin-bottom: 60px;
+}
+
 .content {
   padding-top: 80px;
   width: 2000px;
@@ -147,7 +156,7 @@ body {
 
 .start {
   text-align: justify;
-  color: #3f3f3f;
+  color: #272727;
   line-height: 25px;
   font-size: 18px;
   margin-top: 40px;
@@ -180,13 +189,25 @@ body {
 .info-header {
   margin-top: 70px;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .info-text {
   text-align: justify;
-  color: #3f3f3f;
+  color: #272727;
   line-height: 25px;
   font-size: 18px;
+}
+
+.info-image {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.mainblock a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 60px;
 }
 
