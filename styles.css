@@ -235,13 +235,19 @@ body {
 
 .container1 {
   margin-left: 200px;
-  margin-right: 150px;
+  margin-right: 50px;
 }
 
-.st
+.imagemain{
+  margin-left: 240px;
+}
 
-.imagemain {
-  padding-left: 240px;
+.start{
+  width: 620px;
+}
+
+.mainblock {
+  margin-right: 60px;
 }
 
 .topic-list {
