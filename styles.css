@@ -234,7 +234,7 @@ body {
 }
 
 .container1 {
-  margin-left: 210px;
+  margin-left: 200px;
 }
 
 .imagemain {
@@ -246,6 +246,6 @@ body {
 }
 
 .main-list li a{
-  font-size: 40px;
+  font-size: 27px;
 }
 }
