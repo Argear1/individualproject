@@ -235,30 +235,36 @@ body {
 
 .container1 {
   margin-left: 200px;
-  margin-right: 50px;
+  margin-right: 150px;
 }
 
 .imagemain{
-  margin-left: 240px;
+  margin-left: 300px;
 }
 
-.start{
-  width: 620px;
+.start {
+  font-size: 30px;
+  width: 600px;
+}
+
+.info-text {
+  font-size: 30px;
 }
 
 .mainblock {
   margin-right: 60px;
+  font-size: 30px;
 }
 
 .topic-list {
-  width: 350px;
+  width: 450px;
 }
 
 .topic-list b{
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .main-list li a{
-  font-size: 27px;
+  font-size: 37px;
 }
 }
